@@ -1,0 +1,67 @@
+.head .search-logo{
+	width: 1190px;
+	margin-bottom:;
+	margin:0 auto;
+}
+.search-logo img,.search-logo .search-right{
+	float: left;
+}
+.search-logo .logo{
+	width: 190px;
+}
+.search-logo .search-right{
+	margin:30px 0 10px 10px;
+	position: relative;
+}
+.search-logo form input{
+	vertical-align: top;
+}
+.search-logo form .anything{
+	width: 390px;
+	height: 36px;
+	padding-left:28px;
+	border:2px solid #ffaa00;
+	border-right:0;
+	font:16px/36px Arial;
+	background: #fff;
+	outline:none;
+}
+.search-logo form .search{
+	width: 120px;
+	height: 40px;
+	border:0;
+	font:bold 16px/40px Arial;
+	color:white;
+	background:#fe9900;
+	outline:none;
+	cursor: pointer;
+}
+.search-logo form .search:hover{
+	background:#ff8800;
+}
+.search-logo form img{
+	position:absolute;
+	top:14px;
+	left:10px;
+	cursor: pointer;
+}
+.search-logo .search-right p{
+	margin:8px 0 9px 0;
+	height: 13px;
+	line-height: 13px;
+}
+.search-logo .search-right p a{
+	float: left;
+	font-size:12px;
+	color:#969488;
+}
+.search-logo .search-right p i{
+	float: left;
+	width: 1px;
+	height: 13px;
+	margin:0 9px;
+	background: #ddd;
+}
+.search-logo .search-right p a:hover,.search-logo .search-right p .spc{
+	color:#ff6600;
+}

@@ -1,0 +1,106 @@
+.like{
+	width: 1190px;
+	margin:0 auto;
+}
+.like h2{
+	height: 20px;
+	padding-left:10px;
+	margin-bottom:10px;
+	border-left:3px solid #fe9901;
+	font:bold 16px/20px Arial;
+}
+.like ul{
+	border-top:1px solid #eee;
+	background: #eee;
+}
+.like ul li{
+	float: left;
+	width: 237px;
+	height: 340px;
+	border-top:1px solid #eee;
+	border-right:1px solid #eee;
+	background: #fff;
+	position: relative;
+}
+.like ul li>a{
+	display: block;
+	padding:27px 0 30px 0;
+}
+.like ul li .goods-img{
+	width:200px;
+	height:200px;
+	margin:0px auto 10px;
+	overflow:hidden; 
+}
+.goods-img img{
+	width: 200px;
+	height: 200px;
+	transition:0.8s;
+}
+.like li .goods-title{
+	height:40px;
+	line-height: 20px;
+	font-size:12px;
+	padding:0 24px 0 22px;
+	color:#333;
+	overflow:hidden;
+	word-break: break-all;
+}
+.like li .goods-title i{
+	float: left;
+	width: 35px;
+	height:18px;
+	margin-right:4px;
+	margin-top:2px;
+	background:url("../image/index.png") no-repeat -561px -270px;
+}
+.like li .goods-sale{
+	height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 0 20px;
+    color: #ff6100;
+    font-weight:bold;
+}
+.like li .goods-sale span{
+    font-size: 10px;
+    font-weight:normal;
+}
+.like .goods-likes{
+	position: absolute;
+	bottom:40px;
+	right:20px;
+	width: 44px;
+	height: 20px;
+	border:1px solid #ff9901;
+	border-radius:5px;
+	line-height: 20px;
+	text-align: center;
+	color:#ff6600;
+}
+.like ul li:hover img{
+	transform:scale(1.06);
+}
+.like ul li:hover .goods-title{
+	color:#ff6600;
+}
+.like .end{
+	width: 306px;
+	height: 62px;
+	margin:0 auto;
+	font:18px/54px Arial;
+	color:#aaa;
+}
+.like .end span{
+	float: left;
+	margin-top:26px;
+	width: 97px;
+	height: 1px;
+	background: #aaa;
+}
+.end .end-left{
+	margin-right:38px;
+}
+.like .end .end-right{
+	float: right;
+}

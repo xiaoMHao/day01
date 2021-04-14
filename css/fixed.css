@@ -1,0 +1,185 @@
+.fixed{
+
+}
+.fixed .aside-right{
+	position:fixed;
+	top:0;
+	right:0;
+	width: 35px;
+	padding-top:178px;
+	height: 480px;
+	background: #383838;
+}
+.aside-right li{
+	background:#383838;
+}
+.aside-right li.user a{
+	float: left;
+	width: 35px;
+	height: 30px;
+	background:url("../image/sidebaricon.png") no-repeat 0 0;
+}
+.aside-right li.user{
+	margin-bottom:10px;
+}
+.aside-right li:hover{
+	background-color:#ffaa01;
+}
+.aside-right li.user a:hover{
+	background:url("../image/sidebaricon.png") no-repeat -26px 0;
+}
+.aside-right .shopping-car{
+	height: 117px;
+}
+.aside-right .shopping-car a{
+	float: left;
+	width: 29px;
+	height: 115px;
+	margin:0 3px;
+	border-top:1px solid #4d4d4d;
+	border-bottom:1px solid #4d4d4d;
+	font:15px/18px Arial;
+	color:white;
+	text-align: center;
+	position: relative;
+}
+.aside-right .shopping-car a i{
+	display:block;
+	height: 34px;
+	background:url("../image/sidebaricon.png") no-repeat 0px -208px;
+}
+.aside-right .shopping-car a em{
+	position:absolute;
+	bottom:0;
+	left:4px;
+	height: 15px;
+	line-height: 15px;
+	width: 21px;
+	margin-bottom:11px;
+	background:#dd0000;
+	border-radius:5px;
+	font-size:12px;
+}
+.aside-right .shopping-car:hover a{
+	border-color:#ffaa01;
+}
+.aside-right .information{
+	margin-top:6px;
+	height: 30px;
+	background: #383838;
+	position: relative;
+}
+.aside-right .information .infor2{
+	float: left;
+	width: 35px;
+	height: 30px;
+	background: url("../image/sidebaricon.png") no-repeat 0 -24px;
+}
+.aside-right .information:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -24px;
+}
+.information .infor1{
+	position: absolute;
+	top:0;
+	right:-47px;
+	width: 47px;
+	height: 30px;
+	color:#383838;
+	background: #ffaa01;
+	font:12px/30px Arial;
+	text-align: center;
+	transition:0.8s;
+	z-index:-2;
+}
+.aside-right .information:hover .infor1{
+	right:35px;
+}
+.aside-right .money{
+	margin-top:10px;
+}
+.aside-right .money .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -47px;
+}
+.aside-right .money:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -47px;
+}
+.aside-right .time{
+	margin-top:4px;
+}
+.aside-right .time .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -70px;
+}
+.aside-right .time:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -70px;
+}
+.aside-right .asign{
+	margin-top:5px;
+}
+.aside-right .asign .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -93px;
+}
+.aside-right .asign:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -93px;
+}
+.aside-right .waiter{
+	margin-top:9px;
+}
+.aside-right .waiter .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -117px;
+}
+.aside-right .waiter:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -117px;
+}
+.waiter .infor1,.document .infor1,.top-up .infor1{
+	right:-73px;
+	width: 73px;
+}
+.aside-right .document{
+	margin-top:5px;
+}
+.aside-right .document .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -138px;
+}
+.aside-right .document:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -138px;
+}
+.aside-right .ewm{
+	margin-top:5px;
+}
+.aside-right .ewm .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -163px;
+}
+.aside-right .ewm:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -163px;
+}
+.aside-right .top-up{
+	margin-top:5px;
+}
+.aside-right .top-up .infor2{
+	background: url("../image/sidebaricon.png") no-repeat 0 -260px;
+}
+.aside-right .top-up:hover .infor2{
+	background: url("../image/sidebaricon.png") no-repeat -26px -260px;
+}
+.ewm .infor3{
+	position: absolute;
+	bottom:-5px;
+	right:-160px;
+	width: 160px;
+	height: 236px;
+	background:url("../image/ewm_bg.png") no-repeat 0 0;
+	transition:0.8s;
+	z-index:-1;
+}
+.aside-right .ewm:hover .infor3{
+	right:35px;
+}
+.aside-right .infor4{
+	position: absolute;
+	bottom:40px;
+	right:0;
+	width:35px;
+	height:236px;
+	background:#383838;
+	z-index:-1;
+}

@@ -1,0 +1,298 @@
+		.wrap{
+			width:1190px;
+			margin:0 auto;
+			background:#f2f2f2;
+		}
+		.wrap .floor{
+			margin-bottom:30px;
+		}
+		.hot_sp_left{
+			width:590px;
+			height: 565px;
+			background:#fff;
+			float:left;
+		}
+		.sp_title h2{
+			float: left;
+			height: 47px;
+			line-height: 47px;
+		}
+		.sp_title h2 i,.sp_title h2 span,.sp_title h2 img{
+			float: left;
+		}
+		.sp_title h2 i{
+			width: 4px;
+			height: 20px;
+			margin-top:14px;
+			background:#32b073;
+		}
+		.sp_title h2 span{
+			font-size:18px;
+			margin-left:10px;
+			color:#32b073;
+			font-weight:bold;
+		}
+		.sp_title h2 img{
+			margin-left:8px;
+			margin-top:15px;
+		}
+		.sp_title .sp_tab{
+			float: right;
+			height: 47px;
+			line-height: 47px;
+			padding-right:8px;
+		}
+		.sp_title .sp_tab a{
+			float: left;
+			font-size:12px;
+			padding:2px 10px 0;
+			color:#4f4f4f;
+		}
+		/*商品内容*/
+		.sp_content{
+			position: relative;
+		}
+		.content-l .spec-tb{
+			position: absolute;
+			top:10px;
+			left:0;
+			color:#5F6CB7;
+		}
+		.content-l .spec-tb1{
+			color:#E96F1E;
+		}
+		.content-l .spec_t{
+			font:bold 20px/24px Arial;
+			padding-left:20px;
+		}
+		.content-l .spec_b{
+			font:bold 12px/16px Arial;
+			padding-left:20px;
+		}
+		.content-l{
+			width: 190px;
+			height: 360px;
+			float: left;
+		}
+		.content-l .cl{
+			position: absolute;
+			top:260px;
+			left:0;
+			width: 160px;
+			height: 60px;
+			background:rgba(0,0,0,0.4);
+			border:0px;
+			border-top-right-radius:10px;
+			border-bottom-right-radius:10px;
+			border-left:none;
+		}
+		.content-l .cl .cl-top{
+			height: 35px;
+			font:bold 18px/35px Arial;
+			color:white;
+			margin-top:3px;
+			margin-left:14px;
+		}
+		.content-l .cl .cl-bot{
+			height: 18px;
+			font:bold 12px/18px Arial;
+			color:white;
+			margin-left:14px;
+		}
+		.content-l img{
+			width: 190px;
+			height: 360px;
+		}
+		.content-l img:hover{
+			opacity:0.8;
+		}
+		.content-r{
+			width:400px;
+			height: 360px;
+			float: left;
+		}
+		.sp-box{
+			width: 199px;
+			border-left:1px solid #f6f6f6;
+			border-bottom:1px solid #f6f6f6;
+			height: 179px;
+			float: left;
+			overflow:hidden;
+		}
+		.sp-box a .text-name{
+			height: 24px;
+			font:16px/24px "微软雅黑";
+			margin-top:14px;
+			text-align:center;
+			color:black;
+		}
+		.sp-box a .text-state{
+			height: 21px;
+			font:12px/21px "微软雅黑";
+			text-align:center;
+		}
+		.sp-box a img{
+			width: 110px;
+			height: 120px;
+			margin:0 auto;
+			transition:1s;
+		}
+		.sp-box a img:hover{
+			transform:scale(1.08);
+		}
+		.sp-box-b{
+			width: 189px;
+			float: left;
+			border-right:1px solid #f6f6f6;
+			border-bottom:1px solid #f6f6f6;
+		}
+		.sp-box-b1{
+			width: 200px;
+			float: left;
+			border-right:1px solid #f6f6f6;
+			border-bottom:1px solid #f6f6f6;
+		}
+		.sp-box-b2{
+			width: 198px;
+			float: left;
+			border-right:0px solid #f6f6f6;
+			border-bottom:0px solid #f6f6f6;
+		}
+		.sp-box-b a .box-b{
+			width: 94px;
+			height: 78px;
+			padding-top:31px;
+			text-align: center;
+			float: left;
+		}
+		.sp-box-b a .text-name{
+			height: 17px;
+			font:16px/17px Arial;
+			color:#4f4f4f;
+		}
+		.sp-box-b a .text-state{
+			height: 28px;
+			font:14px/28px Arial;
+		}
+		.sp-box-b a img{
+			float: left;
+			width: 95px;
+			margin-top:8px;
+			transition:1s;
+		}
+		.sp-box-b a img:hover{
+			transform:scale(1.05);
+		}
+		.sp-box-b1 a img{
+			float: left;
+			width: 95px;
+			margin-top:8px;
+			margin-left:5px;
+		}
+		.sp-box-b2 a img{
+			float: left;
+			width: 95px;
+			margin-top:8px;
+			margin-left:4px;
+		}
+		.sp_brand a img{
+			width: 80px;
+			height: 30px;
+			float: left;
+			margin:9px 8px 0 9px;
+		}
+		.hot_sp_right{
+			width:590px;
+			height: 565px;
+			background:#fff;
+			float:right;
+		}
+		.floor .hot_spec{
+			width: 1190px;
+			background:white;
+		}
+		.hot_spec .spec_box{
+			float: left;
+		}
+
+		/*每层的颜色变换*/
+		.floor1 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor1 .text-state,.floor1 .sp_title h2 span{
+			color:#31af70;
+		}
+		.floor1 .sp_title h2 i{
+			background:#31af70;
+		}
+		/*一层结束*/
+		.floor2 .sp_title{
+			background:#f0f0f8;
+		}
+		.floor2 .text-state,.floor2 .sp_title h2 span{
+			color:#636aba;
+		}
+		.floor2 .sp_title h2 i{
+			background:#636aba;
+		}
+		/*二层结束*/
+		.floor3 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor3 .text-state,.floor3 .sp_title h2 span{
+			color:#3796d6;
+		}
+		.floor3 .sp_title h2 i{
+			background:#3796d6;
+		}
+		/*三层结束*/
+		.floor4 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor4 .text-state,.floor4 .sp_title h2 span{
+			color:#d48252;
+		}
+		.floor4 .sp_title h2 i{
+			background:#d48252;
+		}
+		/*四层结束*/
+		.floor5 .sp_title{
+			background:#fdf4ed;
+		}
+		.floor5 .text-state,.floor5 .sp_title h2 span{
+			color:#e96f0c;
+		}
+		.floor5 .sp_title h2 i{
+			background:#e96f0c;
+		}
+		/*五层结束*/
+		.floor6 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor6 .text-state,.floor6 .sp_title h2 span{
+			color:#f36c70;
+		}
+		.floor6 .sp_title h2 i{
+			background:#f36c70;
+		}
+		/*六层结束*/
+		.floor7 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor7 .text-state,.floor7 .sp_title h2 span{
+			color:#94648e;
+		}
+		.floor7 .sp_title h2 i{
+			background:#94648e;
+		}
+		/*七层结束*/
+		.floor8 .sp_title{
+			background:#f9f9f9;
+		}
+		.floor8 .text-state,.floor8 .sp_title h2 span{
+			color:#ba7b09;
+		}
+		.floor8 .sp_title h2 i{
+			background:#ba7b09;
+		}
+		/*八层结束*/

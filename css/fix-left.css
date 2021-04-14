@@ -1,0 +1,58 @@
+		.fix-left{
+			width: 68px;
+			background: #fff;
+			border-bottom:1px solid #ddd;
+			position: fixed;
+			top:50%;
+			left:5px;
+			margin-top:-150px;
+			z-index:0;
+		}
+		.fix-left li{
+			height: 28px;
+			border:1px solid #ddd;
+			border-bottom:0;
+			font:12px/28px Arial;
+			text-align: center;
+			position: relative;
+		}
+		.fix-left li.top{
+			/*position: relative;*/
+			height: 9px;
+			border-bottom:0;
+			border-top:1px solid #ddd;
+		}
+		.fix-left li.top i{
+			position: absolute;
+			bottom:0;
+			left:10px;
+			width: 45px;
+			height: 37px;
+			background:url("../img/index.png") no-repeat -302px -80px;
+		}
+		.fix-left li.list:hover{
+			background: #ff9900;
+			border-color:#ff9900;
+		}
+		.fix-left li a{
+			color:#333;
+			display:block;
+		}
+		.fix-left li.list:hover a{
+			color:white;
+		}
+		.fix-left li.reset{
+			text-align: left;
+		}
+		.fix-left li.reset a{
+			padding-left:30px;
+			color:#ff9902;
+		}
+		.fix-left li.reset em{
+			position: absolute;
+			width: 11px;
+			height: 13px;
+			top:8px;
+			left:15px;
+			background: url("../img/index.png") no-repeat -769px -90px;
+		}

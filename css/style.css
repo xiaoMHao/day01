@@ -1,0 +1,53 @@
+.style{
+	width: 1190px;
+	padding-bottom:20px;
+	margin: 0 auto;
+}
+.style>a{
+	display: block;
+	height: 146px;
+	background:url("../image/156325010988684445.png") no-repeat 0 0;
+}
+.style>ul{
+	background:#5eb8fd;
+}
+.style>ul li{
+	float: left;
+	width: 223px;
+	height: 213px;
+	background:#fff;
+	margin:7px 3px 7px 7px;
+}
+.style>ul li.center{
+	width: 230px;
+}
+.style>ul li .style-top{
+	display: block;
+	height: 136px;
+}
+.style>ul li .style-top img{
+	height: 124px;
+	margin:6px auto;
+}
+.style>ul li .style-bottom{
+	display: block;
+	height: 77px;
+	background:url("../image/style_bg.png") no-repeat 0 0;
+}
+.style>ul li .style-bottom .name{
+	width: 174px;
+	height:35px;
+	margin:0 auto;
+	padding:3px 0 0 0;
+	text-align: center;
+	font:18px/35px Arial;
+	color:white;
+}
+.style>ul li .style-bottom .hot-price{
+	width: 166px;
+	height:25px;
+	margin:0 auto;
+	text-align: center;
+	font:16px/25px Arial;
+	color:#355cf5;
+}

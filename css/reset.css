@@ -1,0 +1,30 @@
+body,p,h1,h2,h3,h4,h5,h6,dd{
+	margin:0;
+	font-size:12px;
+}
+a{text-decoration: none;}
+ul,li,dl,dt,ol{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+form,input,button,textarea{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+.clearFloat:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+img{
+	display:block;
+	border:0;
+}
+body{
+	background: #f2f2f2;
+}
+.head{
+	background: #fff;
+}

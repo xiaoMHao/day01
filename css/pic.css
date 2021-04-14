@@ -1,0 +1,183 @@
+.pics{
+	/*width: 1190px;*/
+	height: 482px;
+	overflow:hidden;
+	background-color: #fc5;
+	position: relative;
+}
+.pics>img{
+	width: 1366px;
+	margin:0 auto;
+
+}
+.pics .center-box{
+	position: absolute;
+	width: 1190px;
+	height: 482px;
+	top:0;
+	left:50%;
+	margin-left:-595px;
+}
+.center-box ul{
+	display:inline-block;
+	vertical-align: top;
+	margin:352px 0 0 198px;
+}
+.center-box ul li{
+	float: left;
+	width: 202px;
+	height: 122px;
+	margin-right:2px;
+	background-color: #fff;
+	position: relative;
+}
+.center-box ul .list-title{
+	margin:11px 0 0 12px;
+	height: 23px;
+	font:bold 16px/23px Arial;
+	color:#ec4429;
+}
+.center-box ul li .list-p{
+	margin-left:12px;
+	height: 18px;
+	font:14px/18px Arial;
+	color:#6f6a67;
+}
+.center-box ul li img{
+	position: absolute;
+	right:10px;
+	bottom:5px;
+}
+.center-box ul .list-car{
+	color:#9340e6;
+}
+.center-box ul .list-tv{
+	color:#28ad2e;
+}
+.center-box ul .list-sit{
+	color:#2f81ed;
+}
+.center-box .center-right{
+	display:inline-block;
+	vertical-align: top;
+	width: 170px;
+	height: 482px;
+	margin-left:2px;
+	background-color: #fff;
+	border:0;
+	border-radius:3px;
+}
+.center-right .icon{
+	float: left;
+	margin:12px 0 12px 59px;
+	width: 52px;
+	height: 52px;
+	background:url("../image/index.png") no-repeat -93px -24px;
+}
+.center-right .hello{
+	clear:both;
+	height: 16px;
+	text-align: center;
+	font:12px/16px Arial;
+}
+.center-right .super{
+	height: 40px;
+	font-size:12px;
+}
+.super .super-left{
+	float: left;
+	margin:9px 0 0 10px;
+	width: 68px;
+	height: 20px;
+	line-height: 20px;	
+	text-align: center;
+	border:1px solid #ff9501;
+	color:#ff9911;
+}
+.super .super-right{
+	float: left;
+	margin:9px 0 0 9px;
+	width: 70px;
+	height: 22px;
+	background:url("../image/super_bg.png") no-repeat 0 0;
+}
+.center-right .get{
+	height: 36px;
+	border-bottom:1px solid #eee;
+}
+.get .get-d{
+	float: left;
+	margin:6px 0 0 9px;
+	width: 70px;
+	height: 18px;
+	background: url("../image/index.png") no-repeat -670px -256px;
+}
+.get .get-ticket{
+	float: left;
+	margin:6px 0 0 11px;
+	width: 70px;
+	height: 18px;
+	background: url("../image/index.png") no-repeat -670px -288px;
+}
+.center-right .news{
+	margin:8px 13px 16px 10px;
+}
+.center-right .news a{
+	float: left;
+	font:12px/20px Arial;
+	padding:4px 0;
+	color:black;
+}
+.center-right .news a span,.center-right .news a:hover{
+	color:#ff7700;
+}
+.live{
+	width: 170px;
+	height: 146px;
+	overflow:hidden;
+}
+.live div{
+	width: 171px;
+}
+.live a{
+	float: left;
+	width: 56px;
+	height: 72px;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.live a i{
+	float: left;
+	width: 33px;
+	height: 24px;
+	margin:15px 12px 0 11px;
+}
+.live a .mobile{
+	background: url("../image/live_bg.png") no-repeat 7px 0;
+}
+.live a .water{
+	background: url("../image/live_bg.png") no-repeat 7px -24px;
+}
+.live a .card{
+	background: url("../image/live_bg.png") no-repeat 0px -48px;
+}
+.live a .money{
+	background: url("../image/live_bg.png") no-repeat 7px -72px;
+}
+.live a .period{
+	background: url("../image/live_bg.png") no-repeat 7px -96px;
+}
+.live a .benefit{
+	background: url("../image/live_bg.png") no-repeat 0px -120px;
+}
+.live a span{
+	float: left;
+	height: 33px;
+	width: 56px;
+	font:12px/33px Arial;
+	text-align: center;
+	color:#382f2a;
+}
+.center-right .live a:hover span{
+	color:#ff7700;
+}
